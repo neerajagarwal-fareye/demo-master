@@ -30,7 +30,7 @@ public class Setup {
             ChromeOptions chromeOptions = new ChromeOptions();
             //chromeOptions.addArguments("--headless");
             //chromeOptions.addArguments("--no-sandbox");
-            driver = new ChromeDriver(chromeOptions);
+            driver = new ChromeDriver();
         } else {
 //            System.setProperty("webdriver.chrome.driver", "chromedriver_win.exe");
 //            driver = new ChromeDriver();
