@@ -17,13 +17,15 @@ public class Setup {
 
     public static WebDriver LaunchBrowser(String browserName) {
 
-        if (browserName.equalsIgnoreCase("chrome") && System.getProperty("os.name").contains("Windows")) {
+        if (browserName.equalsIgnoreCase("chrome") && System.getProperty("os.name").indexOf("win") >= 0) {
+            System.out.println("Launching Chrome On Windows");
             System.setProperty("webdriver.chrome.driver", "chromedriver_win.exe");
             driver = new ChromeDriver();
-        } else if (browserName.equalsIgnoreCase("firefox") && System.getProperty("os.name").contains("Windows")) {
+        } else if (browserName.equalsIgnoreCase("firefox") && System.getProperty("os.name").indexOf("win") >= 0) {
             System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
             driver = new FirefoxDriver();
-        } else if (browserName.equalsIgnoreCase("chrome") && !System.getProperty("os.name").contains("Windows")){
+        } else if (browserName.equalsIgnoreCase("chrome") && (System.getProperty("os.name").indexOf("nix") >= 0 || System.getProperty("os.name").indexOf("nux") >= 0 || System.getProperty("os.name").indexOf("aix") > 0)){
+            System.out.println("Launching Chrome On Linux");
             System.setProperty("webdriver.chrome.driver", "chromedriver_linux");
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments("--headless");
