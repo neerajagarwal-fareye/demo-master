@@ -29,8 +29,8 @@ public class Setup {
             System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
             ChromeOptions chromeOptions = new ChromeOptions();
             //chromeOptions.addArguments("headless");
-            chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
-            //chromeOptions.addArguments("--no-sandbox");
+            //chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
+            chromeOptions.addArguments("--no-sandbox");
             driver = new ChromeDriver(chromeOptions);
         } else {
 //            System.setProperty("webdriver.chrome.driver", "chromedriver_win.exe");
