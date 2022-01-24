@@ -31,6 +31,8 @@ public class Setup {
             //chromeOptions.addArguments("headless");
             //chromeOptions.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors");
             chromeOptions.addArguments("--no-sandbox");
+            chromeOptions.setExperimentalOption("useAutomationExtension", false);
+            chromeOptions.addArguments("--disable-dev-shm-usage");
             driver = new ChromeDriver(chromeOptions);
         } else {
 //            System.setProperty("webdriver.chrome.driver", "chromedriver_win.exe");
