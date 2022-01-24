@@ -28,9 +28,9 @@ public class Setup {
             System.out.println("Launching Chrome On Linux");
             System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
             ChromeOptions chromeOptions = new ChromeOptions();
-            //chromeOptions.addArguments("--headless");
+            chromeOptions.addArguments("headless");
             //chromeOptions.addArguments("--no-sandbox");
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(chromeOptions);
         } else {
 //            System.setProperty("webdriver.chrome.driver", "chromedriver_win.exe");
 //            driver = new ChromeDriver();

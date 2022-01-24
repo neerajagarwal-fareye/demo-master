@@ -4,10 +4,9 @@ import Page.*;
 import SetupPack.Setup;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.ITestListener;
+import org.testng.ITestMethodFinder;
+import org.testng.annotations.*;
 
 public class MTestCase {
     public WebDriver driver;
@@ -185,6 +184,11 @@ public class MTestCase {
     public void teardown()
     {
         driver.quit();
+    }
+
+    @AfterMethod
+    public void postMethod(){
+        System.out.println("Test Executed Successfully");
     }
 
 }
