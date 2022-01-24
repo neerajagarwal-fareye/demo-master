@@ -4,8 +4,6 @@ import Page.*;
 import SetupPack.Setup;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.ITestListener;
-import org.testng.ITestMethodFinder;
 import org.testng.annotations.*;
 
 public class MTestCase {
@@ -186,7 +184,7 @@ public class MTestCase {
         driver.quit();
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postMethod(){
         System.out.println("Test Executed Successfully");
     }
