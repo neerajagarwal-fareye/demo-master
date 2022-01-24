@@ -26,7 +26,7 @@ public class Setup {
             driver = new FirefoxDriver();
         } else if (browserName.equalsIgnoreCase("chrome") && (System.getProperty("os.name").indexOf("nix") >= 0 || System.getProperty("os.name").indexOf("nux") >= 0 || System.getProperty("os.name").indexOf("aix") > 0)){
             System.out.println("Launching Chrome On Linux");
-            System.setProperty("webdriver.chrome.driver", "chromedriver_linux");
+            System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments("--headless");
             chromeOptions.addArguments("--no-sandbox");
