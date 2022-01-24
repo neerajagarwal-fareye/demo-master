@@ -16,7 +16,7 @@ public class BasePage extends GenericMethod {
         PageFactory.initElements(driver, this);
         properties = new Properties();
         try {
-            fis = new FileInputStream("resources/Config.Properties");
+            fis = new FileInputStream("resources/Config.properties");
             properties.load(fis);
         } catch (Exception e) {
             e.printStackTrace();
