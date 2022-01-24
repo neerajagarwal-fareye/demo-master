@@ -1,0 +1,9 @@
+Page\OrderSummary.class
+Utilities\GenericMethod.class
+Page\HomePage.class
+Page\BasePage.class
+SetupPack\Setup.class
+Page\ShoppingCart.class
+Page\CreditDebitCard.class
+Page\SelectPayment.class
+TestCases\MTestCase.class
