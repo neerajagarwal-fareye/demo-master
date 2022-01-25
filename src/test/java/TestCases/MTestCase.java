@@ -15,8 +15,9 @@ public class MTestCase {
     CreditDebitCard creditDebitCard;
 
     @BeforeClass(groups = {"Req"})
-    public void tearUp() {
-        driver = Setup.LaunchBrowser("firefox", "remote");
+    @Parameters({"browser", "mode"})
+    public void tearUp(String browser, String mode) {
+        driver = Setup.LaunchBrowser(browser, mode);
         homePage = new HomePage(driver);
         shoppingCart = new ShoppingCart(driver);
         orderSummary  = new OrderSummary(driver);

@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="REGRESSION-TEST">
-    <test thread-count="1" name="test" parallel="false">
+<suite name="REGRESSION-TEST" verbose="1" thread-count="1" parallel="tests">
         <groups>
             <run>
                 <include name="Req"/>
                 <include name="regression"/>
             </run>
         </groups>
-
+    <test name="Chrome test">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="mode" value="remote"/>
+        <classes>
+            <class name="TestCases.MTestCase"/>
+        </classes>
+    </test>
+    
+    <test name="Firefox test">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="mode" value="remote"/>
         <classes>
             <class name="TestCases.MTestCase"/>
         </classes>
