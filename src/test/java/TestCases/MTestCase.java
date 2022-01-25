@@ -16,7 +16,7 @@ public class MTestCase {
 
     @BeforeClass(groups = {"Req"})
     public void tearUp() {
-        driver = Setup.LaunchBrowser("chrome", "remote");
+        driver = Setup.LaunchBrowser("firefox", "remote");
         homePage = new HomePage(driver);
         shoppingCart = new ShoppingCart(driver);
         orderSummary  = new OrderSummary(driver);
