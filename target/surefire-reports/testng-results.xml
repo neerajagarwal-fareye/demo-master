@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="REGRESSION-TEST" duration-ms="31512" started-at="2022-01-27T20:01:52Z" finished-at="2022-01-27T20:02:24Z">
+    <groups>
+      <group name="regression">
+        <method signature="MTestCase.verifyClickOnBuyNowRedirectToCheckOutPage()[pri:2, instance:TestCases.MTestCase@3d24753a]" name="verifyClickOnBuyNowRedirectToCheckOutPage" class="TestCases.MTestCase"/>
+        <method signature="MTestCase.verifyMidTransPillowAddedToCartWith20000()[pri:1, instance:TestCases.MTestCase@3d24753a]" name="verifyMidTransPillowAddedToCartWith20000" class="TestCases.MTestCase"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="MTestCase.verifyClickOnBuyNowRedirectToCheckOutPage()[pri:2, instance:TestCases.MTestCase@3d24753a]" name="verifyClickOnBuyNowRedirectToCheckOutPage" class="TestCases.MTestCase"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Chrome test" duration-ms="31512" started-at="2022-01-27T20:01:52Z" finished-at="2022-01-27T20:02:24Z">
+      <class name="TestCases.MTestCase">
+        <test-method status="PASS" signature="tearUp(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MTestCase@3d24753a]" name="tearUp" is-config="true" duration-ms="2904" started-at="2022-01-27T20:01:52Z" finished-at="2022-01-27T20:01:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[remote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:TestCases.MTestCase@3d24753a]" name="launchWebsite" is-config="true" duration-ms="14102" started-at="2022-01-27T20:01:55Z" finished-at="2022-01-27T20:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method status="PASS" signature="verifyMidTransPillowAddedToCartWith20000()[pri:1, instance:TestCases.MTestCase@3d24753a]" name="verifyMidTransPillowAddedToCartWith20000" duration-ms="5131" started-at="2022-01-27T20:02:09Z" finished-at="2022-01-27T20:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMidTransPillowAddedToCartWith20000 -->
+        <test-method status="PASS" signature="postMethod()[pri:0, instance:TestCases.MTestCase@3d24753a]" name="postMethod" is-config="true" duration-ms="1" started-at="2022-01-27T20:02:15Z" finished-at="2022-01-27T20:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMethod -->
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:TestCases.MTestCase@3d24753a]" name="launchWebsite" is-config="true" duration-ms="6349" started-at="2022-01-27T20:02:15Z" finished-at="2022-01-27T20:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method status="PASS" signature="verifyClickOnBuyNowRedirectToCheckOutPage()[pri:2, instance:TestCases.MTestCase@3d24753a]" name="verifyClickOnBuyNowRedirectToCheckOutPage" duration-ms="2631" started-at="2022-01-27T20:02:21Z" finished-at="2022-01-27T20:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnBuyNowRedirectToCheckOutPage -->
+        <test-method status="PASS" signature="postMethod()[pri:0, instance:TestCases.MTestCase@3d24753a]" name="postMethod" is-config="true" duration-ms="0" started-at="2022-01-27T20:02:24Z" finished-at="2022-01-27T20:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.MTestCase@3d24753a]" name="teardown" is-config="true" duration-ms="378" started-at="2022-01-27T20:02:24Z" finished-at="2022-01-27T20:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.MTestCase -->
+    </test> <!-- Chrome test -->
+  </suite> <!-- REGRESSION-TEST -->
+</testng-results>

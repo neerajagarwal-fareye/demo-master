@@ -7,17 +7,19 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.FileInputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class Setup {
     public static WebDriver driver;
     public static WebDriverWait wait;
     public static Actions builder;
-
 
     public static WebDriver LaunchBrowser(String browserName, String executionMode){
         if (executionMode.equalsIgnoreCase("remote")){
@@ -28,7 +30,7 @@ public class Setup {
                 cap.setCapability("browserName", "firefox");
             }
             try {
-                driver= new RemoteWebDriver(new URL("http://54.201.189.19:4444/wd/hub"), cap);
+                driver= new RemoteWebDriver(new URL("http://54.201.189.19:port/wd/hub".replace("port", System.getProperty("port"))), cap);
             }catch (MalformedURLException e){
                 e.printStackTrace();
             }

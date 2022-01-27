@@ -9,7 +9,7 @@ import java.util.Properties;
 public class BasePage extends GenericMethod {
     public WebDriver driver;
     public FileInputStream fis;
-    public Properties properties;
+    public static Properties properties;
 
     public BasePage(WebDriver driver1) {
         this.driver = driver1;
