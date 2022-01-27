@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="32.084" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.503" tests="16" errors="0" skipped="15" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
@@ -67,6 +67,89 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="verifyMidTransPillowAddedToCartWith20000" classname="TestCases.MTestCase" time="5.132"/>
-  <testcase name="verifyClickOnBuyNowRedirectToCheckOutPage" classname="TestCases.MTestCase" time="2.63"/>
+  <testcase name="tearUp" classname="TestCases.MTestCase" time="2.17">
+    <failure message="unknown error: Chrome failed to start: crashed.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;82b03c358b&apos;, time: &apos;2019-04-30T22:04:50&apos;&#10;System info: host: &apos;9a5086ac0b48&apos;, ip: &apos;172.17.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.16.3-microsoft-standard-WSL2&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: unknown&#10;remote stacktrace: #0 0x558c42ffdee9 &lt;unknown&gt;&#10;&#10;Command duration or timeout: 806 milliseconds" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: '82b03c358b', time: '2019-04-30T22:04:50'
+System info: host: '9a5086ac0b48', ip: '172.17.0.3', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.16.3-microsoft-standard-WSL2', java.version: '1.8.0_292'
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x558c42ffdee9 <unknown>
+
+Command duration or timeout: 806 milliseconds
+	at TestCases.MTestCase.tearUp(MTestCase.java:21)
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: '82b03c358b', time: '2019-04-30T22:04:50'
+System info: host: '9a5086ac0b48', ip: '172.17.0.3', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.16.3-microsoft-standard-WSL2', java.version: '1.8.0_292'
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x558c42ffdee9 <unknown>
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FEC122-QA-IN', ip: '10.0.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: unknown
+]]></failure>
+  </testcase>
+  <testcase name="launchWebsite" classname="TestCases.MTestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="launchWebsite" classname="TestCases.MTestCase" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Executed Successfully
+]]></system-out>
+  </testcase>
+  <testcase name="launchWebsite" classname="TestCases.MTestCase" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Executed Successfully
+]]></system-out>
+  </testcase>
+  <testcase name="launchWebsite" classname="TestCases.MTestCase" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Executed Successfully
+]]></system-out>
+  </testcase>
+  <testcase name="launchWebsite" classname="TestCases.MTestCase" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Executed Successfully
+]]></system-out>
+  </testcase>
+  <testcase name="launchWebsite" classname="TestCases.MTestCase" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Executed Successfully
+]]></system-out>
+  </testcase>
+  <testcase name="launchWebsite" classname="TestCases.MTestCase" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Executed Successfully
+]]></system-out>
+  </testcase>
+  <testcase name="verifyMidTransPillowAddedToCartWith20000" classname="TestCases.MTestCase" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;82b03c358b&apos;, time: &apos;2019-04-30T22:04:50&apos;&#10;System info: host: &apos;9a5086ac0b48&apos;, ip: &apos;172.17.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.16.3-microsoft-standard-WSL2&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: unknown&#10;remote stacktrace: #0 0x558c42ffdee9 &lt;unknown&gt;&#10;&#10;Command duration or timeout: 806 milliseconds"/>
+  </testcase>
+  <testcase name="verifyClickOnBuyNowRedirectToCheckOutPage" classname="TestCases.MTestCase" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;82b03c358b&apos;, time: &apos;2019-04-30T22:04:50&apos;&#10;System info: host: &apos;9a5086ac0b48&apos;, ip: &apos;172.17.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.16.3-microsoft-standard-WSL2&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: unknown&#10;remote stacktrace: #0 0x558c42ffdee9 &lt;unknown&gt;&#10;&#10;Command duration or timeout: 806 milliseconds"/>
+  </testcase>
+  <testcase name="verifyCheckOutDetails" classname="TestCases.MTestCase" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;82b03c358b&apos;, time: &apos;2019-04-30T22:04:50&apos;&#10;System info: host: &apos;9a5086ac0b48&apos;, ip: &apos;172.17.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.16.3-microsoft-standard-WSL2&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: unknown&#10;remote stacktrace: #0 0x558c42ffdee9 &lt;unknown&gt;&#10;&#10;Command duration or timeout: 806 milliseconds"/>
+  </testcase>
+  <testcase name="verifyNameEmailPhoneCityAddressPostalCodeFieldsAreEditable" classname="TestCases.MTestCase" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;82b03c358b&apos;, time: &apos;2019-04-30T22:04:50&apos;&#10;System info: host: &apos;9a5086ac0b48&apos;, ip: &apos;172.17.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.16.3-microsoft-standard-WSL2&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: unknown&#10;remote stacktrace: #0 0x558c42ffdee9 &lt;unknown&gt;&#10;&#10;Command duration or timeout: 806 milliseconds"/>
+  </testcase>
+  <testcase name="verifyClickingOnCheckoutButtonRedirectToOrderSummaryPopup" classname="TestCases.MTestCase" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;82b03c358b&apos;, time: &apos;2019-04-30T22:04:50&apos;&#10;System info: host: &apos;9a5086ac0b48&apos;, ip: &apos;172.17.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.16.3-microsoft-standard-WSL2&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: unknown&#10;remote stacktrace: #0 0x558c42ffdee9 &lt;unknown&gt;&#10;&#10;Command duration or timeout: 806 milliseconds"/>
+  </testcase>
+  <testcase name="verifyPriceProductNameDetailsOnOrderSummeryPopup" classname="TestCases.MTestCase" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;82b03c358b&apos;, time: &apos;2019-04-30T22:04:50&apos;&#10;System info: host: &apos;9a5086ac0b48&apos;, ip: &apos;172.17.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.16.3-microsoft-standard-WSL2&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: unknown&#10;remote stacktrace: #0 0x558c42ffdee9 &lt;unknown&gt;&#10;&#10;Command duration or timeout: 806 milliseconds"/>
+  </testcase>
+  <testcase name="verifyClickingOnContinueButtonRedirectSelectPaymentPage" classname="TestCases.MTestCase" time="0">
+    <skipped message="unknown error: Chrome failed to start: crashed.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;82b03c358b&apos;, time: &apos;2019-04-30T22:04:50&apos;&#10;System info: host: &apos;9a5086ac0b48&apos;, ip: &apos;172.17.0.3&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.16.3-microsoft-standard-WSL2&apos;, java.version: &apos;1.8.0_292&apos;&#10;Driver info: driver.version: unknown&#10;remote stacktrace: #0 0x558c42ffdee9 &lt;unknown&gt;&#10;&#10;Command duration or timeout: 806 milliseconds"/>
+  </testcase>
+  <testcase name="teardown" classname="TestCases.MTestCase" time="0">
+    <skipped/>
+    <system-out><![CDATA[Test Executed Successfully
+]]></system-out>
+  </testcase>
 </testsuite>
