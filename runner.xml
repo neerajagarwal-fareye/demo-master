@@ -11,7 +11,7 @@
         <parameter name="browser" value="chrome"/>
         <parameter name="mode" value="remote"/>
         <classes>
-            <class name="TestCases.MTestCase"/>
+            <class name="TestCases.MobileTest"/>
         </classes>
     </test>
 
