@@ -4,20 +4,22 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
 public class MobileTest {
 
-    public static void main(String...a){
-        openCalculator();
-    }
+//    public static void main(String...a){
+//        openCalculator();
+//    }
 
-    WebDriver driver;
-    static AppiumDriver appiumDriver;
+    //WebDriver driver;
+    AppiumDriver appiumDriver;
 
-    public static void openCalculator(){
+    @Test(alwaysRun = true)
+    public void openCalculator(){
         DesiredCapabilities cap = new DesiredCapabilities();
         //cap.setCapability("deviceName","Samsung m31");
         cap.setCapability("deviceName","Pixel 2");

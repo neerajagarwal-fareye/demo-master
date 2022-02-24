@@ -30,15 +30,15 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <systemPropertyVariables>
-                        <!--suppress UnresolvedMavenProperty -->
-                        <port>${port}</port>
-                        <!--suppress UnresolvedMavenProperty -->
-                        <executionMode>${executionMode}</executionMode>
-                        <!--suppress UnresolvedMavenProperty -->
-                        <browser>${browser}</browser>
+<!--                    <systemPropertyVariables>-->
+<!--                        &lt;!&ndash;suppress UnresolvedMavenProperty &ndash;&gt;-->
+<!--                        <port>${port}</port>-->
+<!--                        &lt;!&ndash;suppress UnresolvedMavenProperty &ndash;&gt;-->
+<!--                        <executionMode>${executionMode}</executionMode>-->
+<!--                        &lt;!&ndash;suppress UnresolvedMavenProperty &ndash;&gt;-->
+<!--                        <browser>${browser}</browser>-->
 
-                   </systemPropertyVariables>
+<!--                   </systemPropertyVariables>-->
                     <suiteXmlFiles>
                         <suiteXmlFile>runner.xml</suiteXmlFile>
                     </suiteXmlFiles>

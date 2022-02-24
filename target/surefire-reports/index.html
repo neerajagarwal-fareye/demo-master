@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-REGRESSION-TEST" class="hide-methods passed suite-REGRESSION-TEST"> (hide)</a> <!-- hide-methods passed suite-REGRESSION-TEST -->
+                      <a href="#" panel-name="suite-REGRESSION-TEST" class="show-methods passed suite-REGRESSION-TEST"> (show)</a> <!-- show-methods passed suite-REGRESSION-TEST -->
+                    </span>
+                    <div class="method-list-content passed suite-REGRESSION-TEST">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REGRESSION-TEST" title="TestCases.MobileTest" hash-for-method="openCalculator">openCalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-REGRESSION-TEST -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -103,6 +117,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-REGRESSION-TEST" class="panel REGRESSION-TEST">
+          <div class="suite-REGRESSION-TEST-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.MobileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openCalculator">
+                  </a> <!-- openCalculator -->
+                  <span class="method-name">openCalculator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REGRESSION-TEST-class-passed -->
         </div> <!-- panel REGRESSION-TEST -->
         <div panel-name="test-xml-REGRESSION-TEST" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -113,12 +142,6 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;REGRESSION-TEST&quot; parallel=&quot;tests&quot;&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;Req&quot;/&gt;
-      &lt;include name=&quot;regression&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
   &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Chrome test&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;mode&quot; value=&quot;remote&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
@@ -163,11 +186,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'openCalculator')
+data.setCell(0, 2, 'TestCases.MobileTest')
+data.setCell(0, 3, 15562);
 window.suiteTableData['REGRESSION-TEST']= { tableData: data, tableDiv: 'times-div-REGRESSION-TEST'}
 return data;
 }
               </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-REGRESSION-TEST">
               </div> <!-- times-div-REGRESSION-TEST -->
             </div> <!-- times-div -->
@@ -192,6 +220,12 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.MobileTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openCalculator</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
