@@ -34,7 +34,7 @@ public class MobileTest {
         URL url = null;
         try {
             //url = new URL("http://127.0.0.1:4723/wd/hub");
-            url = new URL("http://54.201.189.19:5555/wd/hub");
+            url = new URL("http://172.18.0.3:4723/wd/hub");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
