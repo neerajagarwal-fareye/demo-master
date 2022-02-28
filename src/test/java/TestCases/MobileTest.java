@@ -33,7 +33,8 @@ public class MobileTest {
         cap.setCapability("appActivity","org.chromium.chrome.browser.document.ChromeLauncherActivity");
         URL url = null;
         try {
-            url = new URL("http://127.0.0.1:4723/wd/hub");
+            //url = new URL("http://127.0.0.1:4723/wd/hub");
+            url = new URL("http://172.18.0.5:4723/wd/hub");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
