@@ -9,7 +9,7 @@
         </groups>
     <test name="Chrome test">
         <parameter name="browser" value="chrome"/>
-        <parameter name="mode" value="remote"/>
+        <parameter name="mode" value="local"/>
         <classes>
             <class name="TestCases.MTestCase"/>
         </classes>
