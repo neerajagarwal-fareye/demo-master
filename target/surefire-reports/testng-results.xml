@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="REGRESSION-TEST" duration-ms="10138" started-at="2022-07-10T07:17:45Z" finished-at="2022-07-10T07:17:56Z">
+  <suite name="REGRESSION-TEST" duration-ms="10204" started-at="2022-07-10T08:03:05Z" finished-at="2022-07-10T08:03:15Z">
     <groups>
       <group name="regression">
         <method signature="MTestCase.verifyCheckOutDetails()[pri:3, instance:TestCases.MTestCase@7f690630]" name="verifyCheckOutDetails" class="TestCases.MTestCase"/>
@@ -14,9 +14,9 @@
         <method signature="MTestCase.verifyClickOnBuyNowRedirectToCheckOutPage()[pri:2, instance:TestCases.MTestCase@7f690630]" name="verifyClickOnBuyNowRedirectToCheckOutPage" class="TestCases.MTestCase"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Chrome test" duration-ms="10138" started-at="2022-07-10T07:17:45Z" finished-at="2022-07-10T07:17:56Z">
+    <test name="Chrome test" duration-ms="10204" started-at="2022-07-10T08:03:05Z" finished-at="2022-07-10T08:03:15Z">
       <class name="TestCases.MTestCase">
-        <test-method status="PASS" signature="tearUp(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MTestCase@7f690630]" name="tearUp" is-config="true" duration-ms="972" started-at="2022-07-10T07:17:45Z" finished-at="2022-07-10T07:17:46Z">
+        <test-method status="PASS" signature="tearUp(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MTestCase@7f690630]" name="tearUp" is-config="true" duration-ms="905" started-at="2022-07-10T08:03:05Z" finished-at="2022-07-10T08:03:06Z">
           <params>
             <param index="0">
               <value>
@@ -32,55 +32,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:TestCases.MTestCase@7f690630]" name="launchWebsite" is-config="true" duration-ms="2263" started-at="2022-07-10T07:17:46Z" finished-at="2022-07-10T07:17:49Z">
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:TestCases.MTestCase@7f690630]" name="launchWebsite" is-config="true" duration-ms="2581" started-at="2022-07-10T08:03:06Z" finished-at="2022-07-10T08:03:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method status="PASS" signature="verifyMidTransPillowAddedToCartWith20000()[pri:1, instance:TestCases.MTestCase@7f690630]" name="verifyMidTransPillowAddedToCartWith20000" duration-ms="321" started-at="2022-07-10T07:17:49Z" finished-at="2022-07-10T07:17:49Z">
+        <test-method status="PASS" signature="verifyMidTransPillowAddedToCartWith20000()[pri:1, instance:TestCases.MTestCase@7f690630]" name="verifyMidTransPillowAddedToCartWith20000" duration-ms="215" started-at="2022-07-10T08:03:08Z" finished-at="2022-07-10T08:03:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMidTransPillowAddedToCartWith20000 -->
-        <test-method status="PASS" signature="postMethod()[pri:0, instance:TestCases.MTestCase@7f690630]" name="postMethod" is-config="true" duration-ms="0" started-at="2022-07-10T07:17:49Z" finished-at="2022-07-10T07:17:49Z">
+        <test-method status="PASS" signature="postMethod()[pri:0, instance:TestCases.MTestCase@7f690630]" name="postMethod" is-config="true" duration-ms="0" started-at="2022-07-10T08:03:09Z" finished-at="2022-07-10T08:03:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod -->
-        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:TestCases.MTestCase@7f690630]" name="launchWebsite" is-config="true" duration-ms="1517" started-at="2022-07-10T07:17:49Z" finished-at="2022-07-10T07:17:50Z">
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:TestCases.MTestCase@7f690630]" name="launchWebsite" is-config="true" duration-ms="1491" started-at="2022-07-10T08:03:09Z" finished-at="2022-07-10T08:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method status="PASS" signature="verifyClickOnBuyNowRedirectToCheckOutPage()[pri:2, instance:TestCases.MTestCase@7f690630]" name="verifyClickOnBuyNowRedirectToCheckOutPage" duration-ms="132" started-at="2022-07-10T07:17:50Z" finished-at="2022-07-10T07:17:51Z">
+        <test-method status="PASS" signature="verifyClickOnBuyNowRedirectToCheckOutPage()[pri:2, instance:TestCases.MTestCase@7f690630]" name="verifyClickOnBuyNowRedirectToCheckOutPage" duration-ms="156" started-at="2022-07-10T08:03:10Z" finished-at="2022-07-10T08:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickOnBuyNowRedirectToCheckOutPage -->
-        <test-method status="PASS" signature="postMethod()[pri:0, instance:TestCases.MTestCase@7f690630]" name="postMethod" is-config="true" duration-ms="0" started-at="2022-07-10T07:17:51Z" finished-at="2022-07-10T07:17:51Z">
+        <test-method status="PASS" signature="postMethod()[pri:0, instance:TestCases.MTestCase@7f690630]" name="postMethod" is-config="true" duration-ms="0" started-at="2022-07-10T08:03:10Z" finished-at="2022-07-10T08:03:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod -->
-        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:TestCases.MTestCase@7f690630]" name="launchWebsite" is-config="true" duration-ms="1470" started-at="2022-07-10T07:17:51Z" finished-at="2022-07-10T07:17:52Z">
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:TestCases.MTestCase@7f690630]" name="launchWebsite" is-config="true" duration-ms="1500" started-at="2022-07-10T08:03:10Z" finished-at="2022-07-10T08:03:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method status="PASS" signature="verifyCheckOutDetails()[pri:3, instance:TestCases.MTestCase@7f690630]" name="verifyCheckOutDetails" duration-ms="368" started-at="2022-07-10T07:17:52Z" finished-at="2022-07-10T07:17:52Z">
+        <test-method status="PASS" signature="verifyCheckOutDetails()[pri:3, instance:TestCases.MTestCase@7f690630]" name="verifyCheckOutDetails" duration-ms="316" started-at="2022-07-10T08:03:12Z" finished-at="2022-07-10T08:03:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckOutDetails -->
-        <test-method status="PASS" signature="postMethod()[pri:0, instance:TestCases.MTestCase@7f690630]" name="postMethod" is-config="true" duration-ms="0" started-at="2022-07-10T07:17:52Z" finished-at="2022-07-10T07:17:52Z">
+        <test-method status="PASS" signature="postMethod()[pri:0, instance:TestCases.MTestCase@7f690630]" name="postMethod" is-config="true" duration-ms="1" started-at="2022-07-10T08:03:12Z" finished-at="2022-07-10T08:03:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod -->
-        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:TestCases.MTestCase@7f690630]" name="launchWebsite" is-config="true" duration-ms="1668" started-at="2022-07-10T07:17:52Z" finished-at="2022-07-10T07:17:54Z">
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:TestCases.MTestCase@7f690630]" name="launchWebsite" is-config="true" duration-ms="1474" started-at="2022-07-10T08:03:12Z" finished-at="2022-07-10T08:03:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method status="PASS" signature="verifyNameEmailPhoneCityAddressPostalCodeFieldsAreEditable()[pri:4, instance:TestCases.MTestCase@7f690630]" name="verifyNameEmailPhoneCityAddressPostalCodeFieldsAreEditable" duration-ms="1345" started-at="2022-07-10T07:17:54Z" finished-at="2022-07-10T07:17:55Z">
+        <test-method status="PASS" signature="verifyNameEmailPhoneCityAddressPostalCodeFieldsAreEditable()[pri:4, instance:TestCases.MTestCase@7f690630]" name="verifyNameEmailPhoneCityAddressPostalCodeFieldsAreEditable" duration-ms="1482" started-at="2022-07-10T08:03:14Z" finished-at="2022-07-10T08:03:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNameEmailPhoneCityAddressPostalCodeFieldsAreEditable -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.MTestCase@7f690630]" name="teardown" is-config="true" duration-ms="69" started-at="2022-07-10T07:17:55Z" finished-at="2022-07-10T07:17:56Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.MTestCase@7f690630]" name="teardown" is-config="true" duration-ms="69" started-at="2022-07-10T08:03:15Z" finished-at="2022-07-10T08:03:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="postMethod()[pri:0, instance:TestCases.MTestCase@7f690630]" name="postMethod" is-config="true" duration-ms="0" started-at="2022-07-10T07:17:55Z" finished-at="2022-07-10T07:17:55Z">
+        <test-method status="PASS" signature="postMethod()[pri:0, instance:TestCases.MTestCase@7f690630]" name="postMethod" is-config="true" duration-ms="0" started-at="2022-07-10T08:03:15Z" finished-at="2022-07-10T08:03:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod -->
