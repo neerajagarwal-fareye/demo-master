@@ -49,6 +49,8 @@ public class MTestCase {
         Assert.assertTrue(shoppingCart.verifyPillowPrice());
 
     }
+    
+    //this is for test
 
     @Test(priority = 2,groups = {"regression","smoke"})
     public void verifyClickOnBuyNowRedirectToCheckOutPage()
