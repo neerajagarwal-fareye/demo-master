@@ -20,6 +20,8 @@ public class BasePage extends GenericMethod {
             properties.load(fis);
         } catch (Exception e) {
             e.printStackTrace();
+
+
         }
     }
 }
