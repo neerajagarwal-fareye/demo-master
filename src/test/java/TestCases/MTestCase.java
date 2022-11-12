@@ -34,6 +34,9 @@ public class MTestCase {
     }
 
     //new test
+    //new test
+    //new test
+    //new test
     @BeforeMethod(groups = {"Req"})
     public void launchWebsite(){
         driver.get(homePage.properties.getProperty("URL"));
